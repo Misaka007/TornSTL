@@ -1,0 +1,22 @@
+# 编译中间文件
+build/
+cmake-build-*/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+
+# IDE 配置 (根据你用的IDE调整)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 测试/压测生成的数据
+*.log
+*.gcda
+*.gcno
